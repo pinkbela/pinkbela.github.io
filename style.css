@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+}
+
+.title{ 
+    font-size: 48px;
+    font-weight: bold;
+    border: solid 3px;
+    margin-bottom: 20px;
+    background-color: #fc0fc0;
+}
+
+.video{
+    border: solid 3px;
+    margin-bottom: 30px;
+}
+
+.text{
+    font-size: 22px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.whatsapp-btn{
+    height: 70px;
+    width: 250px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.whatsapp-btn div {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.posts {
+    border: solid 3px;
+    background-color: white;
+}
+
+.posts img {
+    width: 49.5%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    
+
+    .posts img {
+        width: 100%;
+    }
+}
